@@ -74,11 +74,11 @@ aws_tags:
 
 ## Running the playbook
 
-To create the VPC
+To create the <ENTITY>
 
 `ansible-playbook main.yml --tags create`
 
-To remove the VPC
+To remove the <ENTITY>
 
 `ansible-playbook main.yml --tags rollback`
 
